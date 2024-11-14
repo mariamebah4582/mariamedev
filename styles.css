@@ -52,6 +52,8 @@
   }
 }
 
+
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -1071,7 +1073,7 @@ button{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 450px) {
   .container {
     margin-inline: 1rem;
   }
@@ -1101,8 +1103,13 @@ button{
   .home__description{
     margin-bottom: 40px;
   }
+  button{
+    display: none;
+  }
 
 }
+
+
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
@@ -1145,6 +1152,8 @@ me__description{
     margin-bottom: 40px;
   }
 
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1163,6 +1172,8 @@ me__description{
 .hello-item{
   text-align: center;
 }
+
+
 
 
 
@@ -1307,6 +1318,7 @@ me__description{
     rotate: 80deg;
     width: 80px;
   }
+  
   .home__line {
     left: -15rem;
     bottom: 4rem;
